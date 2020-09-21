@@ -2,10 +2,10 @@ on:
   push:
     branches: master
 
-name: shinyapps.io
+name: shinyapps
 
 jobs:
-  shinyapps.io:
+  shinyapps:
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
