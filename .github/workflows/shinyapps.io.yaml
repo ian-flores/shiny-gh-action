@@ -16,7 +16,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          install.packages('shiny', 'rsconnect')
+          install.packages(c('shiny', 'rsconnect'))
         shell: Rscript {0}
         
       - name: Set Up shinyapps.io credentials and publish
